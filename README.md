@@ -23,3 +23,4 @@ gcc -Wall -Wextra -o doppler doppler.c -lraylib
 - [ ] tidy up code.
 - [ ] revisit variable/struct naming.
 - [ ] try out different appearance for drawing.
+- [ ] `cmake` instead of `gcc`.
