@@ -1,0 +1,31 @@
+{
+  description = "c packages";
+
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
+  };
+
+  outputs = { self, nixpkgs }:
+    let
+      system = "x86_64-linux";
+      pkgs = import nixpkgs { inherit system; };
+    in
+    {
+      devShells.${system}.default = pkgs.mkShell {
+        nativeBuildInputs = with pkgs; [ # base tools.
+          gcc
+          cmake
+          ninja
+          pkg-config
+        ];
+
+        buildInputs = with pkgs; [ # extras (header files, etc.)
+          raylib
+        ];
+
+        shellHook = ''
+          export CC=gcc
+        '';
+      };
+    };
+}
