@@ -12,14 +12,14 @@
     in
     {
       devShells.${system}.default = pkgs.mkShell {
-        nativeBuildInputs = with pkgs; [ # base tools.
+        nativeBuildInputs = with pkgs; [
           gcc
           cmake
           ninja
           pkg-config
         ];
 
-        buildInputs = with pkgs; [ # extras (header files, etc.)
+        buildInputs = with pkgs; [
           raylib
         ];
 

@@ -1,7 +1,7 @@
-# <p align="center"> **Doppler Effect Simulator.** </p>
+# <p align="center"> **_Doppler Effect Simulator._** </p>
 
 #### overview.
-This projects serves as a practice for C's [raylib](https://www.raylib.com/) and using CMake.
+This projects serves as a practice for C's [raylib](https://www.raylib.com/) and using [CMake}(https://cmake.org/documentation/).
 
 #### my setup.
 1. NixOS 25.06.
@@ -12,3 +12,14 @@ This projects serves as a practice for C's [raylib](https://www.raylib.com/) and
 ```
 gcc -Wall -Wextra -o doppler doppler.c -lraylib
 ```
+
+> alternatively, using `CMake`,
+>
+>
+>
+
+#### to do.
+
+- [ ] tidy up code.
+- [ ] revisit variable/struct naming.
+- [ ] try out different appearance for drawing.
