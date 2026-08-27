@@ -1,7 +1,7 @@
 # <p align="center"> **_Doppler Effect Simulator._** </p>
 
 #### overview.
-This projects serves as a practice for C's [raylib](https://www.raylib.com/) and using [CMake}(https://cmake.org/documentation/).
+This projects serves as a practice for C's [raylib](https://www.raylib.com/) and using [CMake](https://cmake.org/documentation/).
 
 #### my setup.
 1. NixOS 25.06.
