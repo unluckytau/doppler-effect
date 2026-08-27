@@ -1,14 +1,14 @@
 # <p align="center"> **_Doppler Effect Simulator._** </p>
 
-#### overview.
+### Overview.
 This projects serves as a practice for C's [raylib](https://www.raylib.com/) and using [CMake](https://cmake.org/documentation/).
 
-#### my setup.
+### My setup.
 1. NixOS 25.06.
 2. Neovim v0.12.3 (via Nixvim).
 2. [Nix Shell via `flake.nix`.](./flake.nix)
 
-#### compile using `gcc`.
+### Compile using `gcc`.
 ```
 gcc -Wall -Wextra -o doppler doppler.c -lraylib
 ```
@@ -18,7 +18,7 @@ gcc -Wall -Wextra -o doppler doppler.c -lraylib
 >
 >
 
-#### to do.
+### To do.
 
 ~1. tidy up code.~
 
