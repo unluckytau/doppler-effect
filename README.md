@@ -20,10 +20,7 @@ gcc -Wall -Wextra -o doppler doppler.c -lraylib
 
 ### To do.
 
-~1. tidy up code.~
-
-~2. revisit variable/struct naming.~
-
-~3. try out different appearance for drawing (ember-theme based).~
-
-4. `cmake` instead of `gcc`.
+- [x] tidy up code.
+- [x] revisit variable/struct naming.
+- [x] try out different appearance for drawing (ember-theme based).
+- [ ] `cmake` instead of `gcc`.
